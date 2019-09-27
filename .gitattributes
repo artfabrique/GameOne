@@ -5,3 +5,16 @@
 *.dll filter=lfs diff=lfs merge=lfs -text
 *.exe filter=lfs diff=lfs merge=lfs -text
 *.psd filter=lfs diff=lfs merge=lfs -text
+*/AppCenterPush.framework/AppCenterPush filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.tif filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*/AppCenterCrashes.framework/AppCenterCrashes filter=lfs diff=lfs merge=lfs -text
+*.psb filter=lfs diff=lfs merge=lfs -text
+*.pdb filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*/AppCenter.framework/AppCenter filter=lfs diff=lfs merge=lfs -text
+*/AppCenterAnalytics.framework/AppCenterAnalytics filter=lfs diff=lfs merge=lfs -text
+*/AppCenterDistribute.framework/AppCenterDistribute filter=lfs diff=lfs merge=lfs -text
