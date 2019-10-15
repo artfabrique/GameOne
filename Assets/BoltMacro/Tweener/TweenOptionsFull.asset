@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: TweenOptionsFull
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Entry","label":null,"summary":null,"hideLabel":true}],"controlOutputDefinitions":[{"key":"On
+      Start","label":null,"summary":null,"hideLabel":false},{"key":"On Complete","label":null,"summary":null,"hideLabel":false},{"key":"On
+      Update","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"DG.Tweening.Tween","key":"tween","label":null,"summary":null,"hideLabel":true},{"hasDefaultValue":true,"defaultValue":{"$content":0.0,"$type":"System.Single"},"_type":"System.Single","key":"delay","label":null,"summary":null,"hideLabel":false},{"hasDefaultValue":true,"defaultValue":{"$content":"OutQuad","$type":"DG.Tweening.Ease"},"_type":"DG.Tweening.Ease","key":"easing","label":null,"summary":null,"hideLabel":false},{"hasDefaultValue":true,"defaultValue":{"$content":"Restart","$type":"DG.Tweening.LoopType"},"_type":"DG.Tweening.LoopType","key":"loop
+      type","label":null,"summary":null,"hideLabel":false},{"hasDefaultValue":true,"defaultValue":{"$content":0,"$type":"System.Int32"},"_type":"System.Int32","key":"loops","label":null,"summary":null,"hideLabel":false},{"hasDefaultValue":true,"defaultValue":{"$content":true,"$type":"System.Boolean"},"_type":"System.Boolean","key":"include
+      loops","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[{"_type":"DG.Tweening.Tween","key":"Tween","label":null,"summary":null,"hideLabel":true},{"_type":"System.Single","key":"progress","label":null,"summary":null,"hideLabel":false}],"title":"Tween
+      Full Options","summary":null,"pan":{"x":-50.0,"y":278.0},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":null,"embed":null},"defaultValues":{},"position":{"x":-288.0,"y":228.0},"guid":"9bad0e67-667f-47a7-b6f4-f2dacc099d7c","$version":"A","$type":"Bolt.SuperUnit","$id":"21"},{"nest":{"source":"Macro","macro":null,"embed":null},"defaultValues":{},"position":{"x":-72.0,"y":228.0},"guid":"f837bdd8-59c2-4827-bf6e-16edab643e8d","$version":"A","$type":"Bolt.SuperUnit","$id":"24"},{"defaultValues":{},"position":{"x":216.0,"y":228.0},"guid":"baa98cdd-1891-4a2c-9377-e2882aff4b97","$version":"A","$type":"Bolt.GraphOutput","$id":"27"},{"defaultValues":{},"position":{"x":-480.0,"y":228.0},"guid":"2974d689-c3c8-43f2-91e3-352d59a4db7f","$version":"A","$type":"Bolt.GraphInput","$id":"29"},{"sourceUnit":{"$ref":"29"},"sourceKey":"delay","destinationUnit":{"$ref":"21"},"destinationKey":"delay","guid":"183c7b25-5800-46b3-8b61-9ffcdfd6642c","$type":"Bolt.InvalidConnection"},{"sourceUnit":{"$ref":"29"},"sourceKey":"tween","destinationUnit":{"$ref":"21"},"destinationKey":"tween","guid":"37e877a4-03ab-43e9-9bc6-2685495ac949","$type":"Bolt.InvalidConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"Tween","destinationUnit":{"$ref":"24"},"destinationKey":"Tween","guid":"6d3dd4e1-a14a-40c6-997f-4534a4b18709","$type":"Bolt.InvalidConnection"},{"sourceUnit":{"$ref":"29"},"sourceKey":"easing","destinationUnit":{"$ref":"21"},"destinationKey":"easing","guid":"c2557f68-1fcd-4aa7-9e3c-2a13af6de164","$type":"Bolt.InvalidConnection"},{"sourceUnit":{"$ref":"24"},"sourceKey":"Tween
+      ","destinationUnit":{"$ref":"27"},"destinationKey":"Tween","guid":"4e8987b8-9b6a-462b-a158-58c1cb35095f","$type":"Bolt.InvalidConnection"},{"sourceUnit":{"$ref":"29"},"sourceKey":"loops","destinationUnit":{"$ref":"21"},"destinationKey":"loops","guid":"f19840fb-6deb-42b6-b863-2d89b9a6d9e0","$type":"Bolt.InvalidConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"exit","destinationUnit":{"$ref":"24"},"destinationKey":"Entry","guid":"a38c9a84-cd76-40ef-bbe5-dae9d8f34f48","$type":"Bolt.InvalidConnection"},{"sourceUnit":{"$ref":"24"},"sourceKey":"Progress
+      %","destinationUnit":{"$ref":"27"},"destinationKey":"progress","guid":"ec07c880-d5cd-4903-b5ed-9425742430e6","$type":"Bolt.InvalidConnection"},{"sourceUnit":{"$ref":"29"},"sourceKey":"Entry","destinationUnit":{"$ref":"21"},"destinationKey":"entry","guid":"0d7a5ad3-3a97-406e-8d15-e35f33473974","$type":"Bolt.InvalidConnection"},{"sourceUnit":{"$ref":"24"},"sourceKey":"On
+      Start","destinationUnit":{"$ref":"27"},"destinationKey":"On Start","guid":"2bd08565-7588-477d-a0d7-80452ecc3780","$type":"Bolt.InvalidConnection"},{"sourceUnit":{"$ref":"24"},"sourceKey":"On
+      Complete","destinationUnit":{"$ref":"27"},"destinationKey":"On Complete","guid":"2668cee9-bde6-40a6-9b26-d77e0043b93c","$type":"Bolt.InvalidConnection"},{"sourceUnit":{"$ref":"24"},"sourceKey":"On
+      Update","destinationUnit":{"$ref":"27"},"destinationKey":"On Update","guid":"34005540-76c0-4d05-b727-15ed9b15cad8","$type":"Bolt.InvalidConnection"},{"sourceUnit":{"$ref":"29"},"sourceKey":"loop
+      type","destinationUnit":{"$ref":"21"},"destinationKey":"loopType","guid":"b918fcfe-c8d2-494a-a166-8476ef39cad7","$type":"Bolt.InvalidConnection"},{"sourceUnit":{"$ref":"29"},"sourceKey":"include
+      loops","destinationUnit":{"$ref":"24"},"destinationKey":"include loops","guid":"a718395b-9691-4640-98da-3b99dceb7d8e","$type":"Bolt.InvalidConnection"}],"$version":"A"}}'
+    _objectReferences: []
