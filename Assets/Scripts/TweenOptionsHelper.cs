@@ -10,6 +10,8 @@ namespace Startle.Helpers
 {
     public class TweenOptionsHelper
     {
+        private Tween _aotTween;
+        private Tweener _aotTweener;
 
         public void SetTweenOptions(Tween tween, float delay, Ease easing, LoopType loopType, int loops, out Tween tweenOut)
         {

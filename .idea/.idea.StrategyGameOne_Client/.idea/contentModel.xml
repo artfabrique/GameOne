@@ -4,6 +4,7 @@
     <e p="C:\Users\artfa\.Rider2019.2\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\artfa\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_StrategyGameOne_Client.2006883120.00" t="ExcludeRecursive" />
     <e p="D:\WECANDO\Dropbox\Revenga\StrategyGameOne\StrategyGameOne_Client" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Demigiant" t="Include">
@@ -101,6 +102,74 @@
               <e p="System.Xml.Linq.xml" t="Include" />
               <e p="System.Xml.xml" t="Include" />
             </e>
+            <e p="Generated" t="Include">
+              <e p="Property Providers" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="PropertyProvider_UnityEditor_AddressableAssets_Settings_ProfileValueReference.cs" t="Include" />
+                </e>
+                <e p="PropertyProvider_TMPro_TextAlignmentOptions.cs" t="Include" />
+                <e p="PropertyProvider_TMPro_TMP_Character.cs" t="Include" />
+                <e p="PropertyProvider_TMPro_TMP_Dropdown_DropdownEvent.cs" t="Include" />
+                <e p="PropertyProvider_TMPro_TMP_Dropdown_OptionDataList.cs" t="Include" />
+                <e p="PropertyProvider_TMPro_TMP_FontWeightPair.cs" t="Include" />
+                <e p="PropertyProvider_TMPro_TMP_GlyphPairAdjustmentRecord.cs" t="Include" />
+                <e p="PropertyProvider_TMPro_TMP_InputField_OnChangeEvent.cs" t="Include" />
+                <e p="PropertyProvider_TMPro_TMP_InputField_SelectionEvent.cs" t="Include" />
+                <e p="PropertyProvider_TMPro_TMP_InputField_SubmitEvent.cs" t="Include" />
+                <e p="PropertyProvider_TMPro_TMP_InputField_TextSelectionEvent.cs" t="Include" />
+                <e p="PropertyProvider_TMPro_TMP_InputField_TouchScreenKeyboardEvent.cs" t="Include" />
+                <e p="PropertyProvider_TMPro_TMP_SpriteCharacter.cs" t="Include" />
+                <e p="PropertyProvider_TMPro_TMP_SpriteGlyph.cs" t="Include" />
+                <e p="PropertyProvider_TMPro_TMP_Style.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_AddressableAssets_AssetLabelReference.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_AddressableAssets_AssetReference.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_AddressableAssets_AssetReferenceAtlasedSprite.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_AddressableAssets_AssetReferenceGameObject.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_AddressableAssets_AssetReferenceSprite.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_AddressableAssets_AssetReferenceTexture.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_AddressableAssets_AssetReferenceTexture2D.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_AddressableAssets_AssetReferenceTexture3D.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_AddressableAssets_Initialization_CacheInitializationData.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_Analytics_AnalyticsEventParam.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_Analytics_AnalyticsEventParamListContainer.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_Analytics_EventTrigger.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_Analytics_StandardEventPayload.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_Analytics_TrackableField.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_Analytics_TrackablePropertyBase.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_Analytics_TriggerListContainer.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_Analytics_TriggerRule.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_Analytics_ValueProperty.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_Events_UnityEvent.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_Events_UnityEventBase.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_EventSystems_EventTrigger_TriggerEvent.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_ParticleSystem_MinMaxCurve.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_ParticleSystem_MinMaxGradient.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_ResourceManagement_Util_SerializedType.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_TextCore_Glyph.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_TextCore_GlyphMetrics.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_TextCore_GlyphRect.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_UI_AnimationTriggers.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_UI_Button_ButtonClickedEvent.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_UI_ColorBlock.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_UI_Dropdown_DropdownEvent.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_UI_Dropdown_OptionDataList.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_UI_FontData.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_UI_InputField_OnChangeEvent.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_UI_InputField_SubmitEvent.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_UI_MaskableGraphic_CullStateChangedEvent.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_UI_Navigation.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_UI_Scrollbar_ScrollEvent.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_UI_ScrollRect_ScrollRectEvent.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_UI_Slider_SliderEvent.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_UI_SpriteState.cs" t="Include" />
+                <e p="PropertyProvider_UnityEngine_UI_Toggle_ToggleEvent.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="PlayServicesResolver" t="Include">
+          <e p="Editor" t="Include">
+            <e p="play-services-resolver_v1.2.95.0.txt" t="Include" />
           </e>
         </e>
         <e p="Scripts" t="Include">
