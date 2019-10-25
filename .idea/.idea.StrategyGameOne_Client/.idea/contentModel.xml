@@ -21,6 +21,38 @@
             <e p="readme.txt" t="Include" />
           </e>
         </e>
+        <e p="Firebase" t="Include">
+          <e p="Editor" t="Include">
+            <e p="AnalyticsDependencies.xml" t="Include" />
+            <e p="AppDependencies.xml" t="Include" />
+            <e p="CrashlyticsDependencies.xml" t="Include" />
+            <e p="FirebaseAnalytics_version-6.6.0_manifest.txt" t="Include" />
+            <e p="FirebaseCrashlytics_version-6.6.0_manifest.txt" t="Include" />
+          </e>
+          <e p="m2repository" t="Include">
+            <e p="com" t="Include">
+              <e p="google" t="Include">
+                <e p="Firebase" t="Include">
+                  <e p="firebase-analytics-unity" t="Include">
+                    <e p="maven-metadata.xml" t="Include" />
+                  </e>
+                  <e p="firebase-app-unity" t="Include">
+                    <e p="maven-metadata.xml" t="Include" />
+                  </e>
+                  <e p="firebase-crashlytics-unity" t="Include">
+                    <e p="maven-metadata.xml" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Plugins" t="Include">
+            <e p="Crashlytics" t="Include">
+              <e p="link.xml" t="Include" />
+            </e>
+            <e p="link.xml" t="Include" />
+          </e>
+        </e>
         <e p="Ludiq" t="Include">
           <e p="Assemblies" t="Include">
             <e p="Bolt.Core.Editor.xml" t="Include" />
@@ -169,10 +201,14 @@
         </e>
         <e p="PlayServicesResolver" t="Include">
           <e p="Editor" t="Include">
-            <e p="play-services-resolver_v1.2.95.0.txt" t="Include" />
+            <e p="play-services-resolver_v1.2.125.0.txt" t="Include" />
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Firebase" t="Include">
+            <e p="CrashlyticsInit.cs" t="Include" />
+            <e p="CrashlyticsTester.cs" t="Include" />
+          </e>
           <e p="SimpleCameraController.cs" t="Include" />
           <e p="TweenOptionsHelper.cs" t="Include" />
         </e>

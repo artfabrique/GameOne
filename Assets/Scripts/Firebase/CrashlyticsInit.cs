@@ -8,6 +8,7 @@
   public class CrashlyticsInit : MonoBehaviour {
       // Use this for initialization
       void Start () {
+          Firebase.FirebaseApp.LogLevel = Firebase.LogLevel.Debug;
           // Initialize Firebase
           Firebase.FirebaseApp.CheckAndFixDependenciesAsync().ContinueWith(task => {
               var dependencyStatus = task.Result;

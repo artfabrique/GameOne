@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: CrashlyticsSettings
   m_EditorClassIdentifier: 
   configuration:
-    stringProperties: []
+    stringProperties:
+    - _key: fabricApiKey
+      _value: AIzaSyBtUbU3MjggkFlRRl_KSmLn8OtJB1Bz4cI
     intProperties: []
     floatProperties: []
     booleanProperties: []
