@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "290095552248",
+    "firebase_url": "https://gameone-e29ff.firebaseio.com",
+    "project_id": "gameone-e29ff",
+    "storage_bucket": "gameone-e29ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290095552248:android:9feb1ca0a15dce9423cd0d",
+        "android_client_info": {
+          "package_name": "me.revenga.gameone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290095552248-tl9aaih6uihgt485nm23rvmena2534gj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqZ_RH1TNv7W5Pqc8YuCan1O1zMZiJ8p8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290095552248-tl9aaih6uihgt485nm23rvmena2534gj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "290095552248-951i57acgqidonmpaauh1e4bg69mfskr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "me.revenga.gameone"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

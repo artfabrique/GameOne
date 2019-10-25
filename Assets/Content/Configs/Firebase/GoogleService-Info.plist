@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>290095552248-951i57acgqidonmpaauh1e4bg69mfskr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.290095552248-951i57acgqidonmpaauh1e4bg69mfskr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAtlbUvsl_EgEcmayn22fVNGI2dWQePeeA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>290095552248</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>me.revenga.gameone</string>
+	<key>PROJECT_ID</key>
+	<string>gameone-e29ff</string>
+	<key>STORAGE_BUCKET</key>
+	<string>gameone-e29ff.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:290095552248:ios:326e037c7a3bada123cd0d</string>
+	<key>DATABASE_URL</key>
+	<string>https://gameone-e29ff.firebaseio.com</string>
+</dict>
+</plist>
